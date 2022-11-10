@@ -1,0 +1,230 @@
+
+/* SECTION */
+
+
+/* PREFILE */
+
+section .container-profile{
+    display: flex;
+    flex-direction: column;
+}
+
+
+section .container-profile .image{
+    width: 300px;
+    height: 300px;
+    border: 4px solid #3be4fa;
+    margin: 0 auto;
+}
+
+section .container-profile img{
+    width: 300px;
+    height: 300px;
+}
+
+section .container-profile .profile{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+section .container-profile .profile .text{
+    font-size: 20px;
+    color: #3be4fa;
+    width: 1000px;
+}
+
+
+
+/* EXPERIENCE */
+
+section .container-experience{
+    background-color: #00bdd6;
+}
+
+section .container-experience .row{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+section .container-experience .row .icon{
+    margin: 20px;
+    cursor: pointer;
+    transition: all 1s ease;
+}
+
+section .container-experience img{
+    width: 120px;
+    height: 120px;
+    cursor: pointer;
+}
+
+section .container-experience .icon:hover{
+    transform: scale(1.6);
+}
+
+section .container-experience .row .icon p{
+    text-align: center;
+    color: white;
+    font-weight: 900;
+}
+
+
+
+/* PROYECTS */
+
+section .container-proyects{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+section .container-1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+section .container-1 .container-2{
+    border: 4px solid #00bdd6;
+    text-align: center; 
+    cursor: pointer;
+    margin: 10px;
+}
+
+section .container-1 .container-2 .image{
+    height: 300px;
+    width: 300px;
+}
+
+section .container-1 .container-2 div p{
+    padding: 10px 0;
+}
+
+section .container-1 .container-2 p{
+    font-size: 20px;
+    color: #00bdd6;
+}
+
+
+
+
+/* FORM */
+
+.container-form{
+    display: flex;
+    justify-content: center;
+    background-color: #00bdd6;
+}
+
+.container-form form{
+    text-align: justify;
+}
+
+label{
+    display: block;
+    margin-top: 10px;
+    font-size: 20px;
+    color: white;
+    text-align: justify;    
+}
+
+input, textarea{
+    padding: 5px;
+    width: 500px;
+    border: none;
+    background-color: #3be4fa;
+    resize: none;
+    outline: none;
+}
+
+form button{
+    display: block;
+    margin-top: 10px;
+    padding: 5px;
+    border: none;
+    background-color: #3be4fa;
+    color: white;
+    font-size: 20px;
+}
+
+input, textarea:active{
+    border: none;
+}
+
+
+
+
+/* REDES */
+
+section ul{
+    display: flex;
+    justify-content: center;
+    background-color: #00bdd6;
+    padding: 60px 0 20px 0;
+}
+
+section ul li{
+    font-size: 20px;
+    margin: 0 20px;
+}
+
+section li a{
+    color: rgb(96, 108, 219);
+}
+
+section li :hover{
+    color: rgb(122, 228, 247);
+}
+
+section ul li img{
+    height: 50px;
+    width: 50px;
+    transition: all 1s ease;
+}
+
+section ul li img:hover{
+    transform: scale(1.5);
+}
+
+
+
+@media screen and (max-width: 425px){
+
+
+    /* PROFILE */
+
+    section .container-profile .profile .text{
+        margin: 0 15px;
+    }
+
+    /* PROYECTOS */
+
+    section .container-1{
+        display: flex;
+        justify-content: center;
+    }
+
+    section .container-proyects .btn{
+        display: none;
+    }
+
+    section .container-1 .container-2 .image{
+        height: 220px;
+        width: 220px;
+    }
+
+    /* FORM */
+
+    input, textarea{
+        padding: 5px;
+        width: 280px;
+    }
+
+    
+}

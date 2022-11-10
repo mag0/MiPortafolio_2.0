@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: none;
+    list-style: none;
+    text-decoration: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+section .tittle{
+    text-align: center;
+    margin: 200px 0px 100px 0px;
+    padding-bottom: 10px; 
+    font-size: 25px;
+    color: gray;
+}
+
+hr{
+    background-image: linear-gradient(to right,transparent,#00bdd6,transparent);
+    border: 0;
+    height: 3px;
+    max-width: 100%;
+    margin: 10px 0;
+}
