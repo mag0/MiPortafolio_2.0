@@ -1,8 +1,10 @@
-const nav  = document.querySelector('.main');
+const nav  = document.querySelector('.menu');
+var section  = document.querySelectorAll('.section');
 const button_nav  = document.querySelector('.submenu');
 
 button_nav.addEventListener('click', ()=>{
-    nav.classList.toggle('open')
+    nav.classList.toggle('open');
+    section.classList.toggle('lista')
 })
 
 

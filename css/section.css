@@ -31,7 +31,7 @@ section .container-profile .profile{
 }
 
 section .container-profile .profile .text{
-    font-size: 20px;
+    font-size: 24px;
     color: #3be4fa;
     width: 1000px;
 }

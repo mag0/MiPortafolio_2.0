@@ -23,60 +23,43 @@ header .container .tittle h2{
     margin: 10px 0;
 }
 
-header .container .button{
+header .container .tittle-button{
     display: flex;
     justify-content: space-between;
     padding: 10px;
     color: white;
+    
+}
+
+header .container .tittle-button .submenu{
     cursor: pointer;
 }
 
-header .container ul{
+header .container .menu{
     height: 0;
     text-align: center;
-    position: relative;
     transition: all .6s ease;
     position: absolute;
     width: 100%;
     background-color: #05aac0;
+    overflow: hidden;
 }
 
 header .container .open{
     height: 180px;
 }
 
+header .container .lista{
+    color: red;
+}
+
 header .container ul li{
     font-size: 20px;
     color: white;
     margin-top: 10px;
+    /* display: none; */
 }
 
 header .container ul li a{
     color: white;
-}
-
-header .container li :hover{
-    color: rgb(122, 228, 247);
-}
-
-
-
-@media screen and (max-width: 425px){
-
-    /* MENU */
-
-    header .container .submenu{
-        margin: 0 auto;
-    }
-    
-    
-
-    header .container .nav ul{
-        flex-direction: column;
-    }
-    
-    header .container .nav ul li{
-        margin: 10px 0;
-    }
-
 }
