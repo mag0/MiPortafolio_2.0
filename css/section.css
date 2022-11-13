@@ -36,6 +36,17 @@ section .container-profile .profile .text{
     width: 1000px;
 }
 
+section .container-profile .profile .text a{
+    color: #3be4fa;
+    border-bottom: 1px solid rgb(42, 224, 224);
+}
+
+section .container-profile .profile .text a:hover{
+    color: #2db4c6;
+    border-bottom: 1px solid #2db4c6;
+    
+}
+
 
 
 /* EXPERIENCE */
@@ -141,6 +152,7 @@ input, textarea{
     background-color: #3be4fa;
     resize: none;
     outline: none;
+    color: white;
 }
 
 form button{
@@ -151,10 +163,7 @@ form button{
     background-color: #3be4fa;
     color: white;
     font-size: 20px;
-}
-
-input, textarea:active{
-    border: none;
+    cursor: pointer;
 }
 
 
@@ -208,10 +217,6 @@ section ul li img:hover{
     section .container-1{
         display: flex;
         justify-content: center;
-    }
-
-    section .container-proyects .btn{
-        display: none;
     }
 
     section .container-1 .container-2 .image{
