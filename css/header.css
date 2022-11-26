@@ -9,24 +9,28 @@ header{
 header .container .tittle{
     padding: 60px 0;
     text-align: center;
+    background-image: url(../img/header-1920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #00bdd6;
+    height: 1200px;
 }
 
 header .container .tittle h1{
     font-size: 50px;
-    color: white;
     margin: 10px 0;
 }
 
 header .container .tittle h2{
     font-size: 30px;
-    color: white;
     margin: 10px 0;
+    font-weight: 900;
 }
 
 header .container .tittle-button{
     display: flex;
     justify-content: space-between;
-    padding: 10px;
+    padding: 20px;
     color: white;
     
 }
@@ -38,7 +42,7 @@ header .container .tittle-button .submenu{
 header .container .menu{
     height: 0;
     text-align: center;
-    transition: all .6s ease;
+    transition: all 1s ease;
     position: absolute;
     width: 100%;
     background-color: #05aac0;
@@ -49,17 +53,33 @@ header .container .open{
     height: 180px;
 }
 
-header .container .lista{
-    color: red;
-}
-
 header .container ul li{
     font-size: 20px;
     color: white;
     margin-top: 10px;
-    /* display: none; */
 }
 
 header .container ul li a{
     color: white;
+}
+
+header .container ul li a:hover{
+    color: #00bdd6;
+}
+
+
+@media screen and (max-width: 1024px) {
+
+    header .container .tittle{
+        background-image: none;
+        color: white;
+        height: 200px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    
+    
 }
