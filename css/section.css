@@ -99,17 +99,13 @@ section .container-1{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    
 }
 
 section .container-1 .container-2{
     text-align: center; 
     cursor: pointer;
-    margin: 0 100px;
-}
-
-section .container-1 .container-2 .image{
-    height: 300px;
-    width: 300px;
+    padding: 50px;
 }
 
 section .container-1 .container-2 .image img{
@@ -223,12 +219,7 @@ section ul li img:hover{
 
     /* PROYECTOS */
 
-    section .container-1{
-        display: flex;
-        justify-content: center;
-    }
-
-    section .container-1 .container-2 .image{
+    section .container-1 .container-2 .image img{
         height: 220px;
         width: 220px;
     }
