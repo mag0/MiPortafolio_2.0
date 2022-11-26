@@ -12,8 +12,9 @@ header .container .tittle{
     background-image: url(../img/header-1920.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     color: #00bdd6;
-    height: 1200px;
+    height: 1000px;
 }
 
 header .container .tittle h1{
@@ -71,15 +72,17 @@ header .container ul li a:hover{
 @media screen and (max-width: 1024px) {
 
     header .container .tittle{
-        background-image: none;
-        color: white;
-        height: 200px;
+        height: 600px;
     }
 
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 425px) {
 
-    
+    header .container .tittle{
+        background-image: none;
+        color: white;
+        height: 200px;
+    }
     
 }
