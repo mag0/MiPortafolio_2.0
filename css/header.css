@@ -15,6 +15,7 @@ header .container .tittle{
     background-position: center;
     color: #00bdd6;
     height: 1000px;
+    cursor: pointer;
 }
 
 header .container .tittle h1{
@@ -65,7 +66,7 @@ header .container ul li a{
 }
 
 header .container ul li a:hover{
-    color: #00bdd6;
+    color: #0b646f;
 }
 
 
@@ -84,5 +85,12 @@ header .container ul li a:hover{
         color: white;
         height: 200px;
     }
+
+    header .container .tittle-button{
+        background-color: #018da0;
+    }
     
+    header .container .menu{
+        background-color: #018da0;
+    }
 }

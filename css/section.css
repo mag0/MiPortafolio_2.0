@@ -42,7 +42,7 @@ section .container-profile .profile .text a{
 }
 
 section .container-profile .profile .text a:hover{
-    color: #2db4c6;
+    color: #0b646f;
     border-bottom: 1px solid #2db4c6;
     
 }
