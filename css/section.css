@@ -103,22 +103,30 @@ section .container-1{
 }
 
 section .container-1 .container-2{
-    text-align: center; 
     cursor: pointer;
-    padding: 50px;
+    padding: 20px;
+    width: 400px;
 }
 
 section .container-1 .container-2 .image img{
-    height: 300px;
-    width: 300px;
+    height: 250px;
+    width: 400px;
     border-radius: 10px;
+    border: 4px solid #3be4fa;
+    transition: .3s;
 }
 
-section .container-1 .container-2 div p{
-    padding: 10px 0;
+section .container-1 .container-2 .image img:hover{
+    scale: 1.2;
 }
 
-section .container-1 .container-2 p{
+section .container-1 .container-2 a div .titulo_imagen{
+    font-size: 22px;
+    color: #00bdd6;
+    margin: 5px 0;
+}
+
+section .container-1 .container-2 a div p{
     font-size: 20px;
     color: #00bdd6;
 }
