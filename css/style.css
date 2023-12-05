@@ -10,6 +10,10 @@ html{
     scroll-behavior: smooth;
 }
 
+body{
+    background-color: #e0fbff;
+}
+/* #e0fbff */
 section .tittle{
     text-align: center;
     margin: 200px 0px 100px 0px;
@@ -24,4 +28,8 @@ hr{
     height: 3px;
     max-width: 100%;
     margin: 10px 0;
+}
+
+h2{
+    color: #00bdd6;
 }

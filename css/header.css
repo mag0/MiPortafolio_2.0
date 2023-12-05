@@ -7,7 +7,6 @@ header{
 }
 
 header .container .tittle{
-    padding: 60px 0;
     text-align: center;
     background-image: url(../img/header-1920.jpg);
     background-repeat: no-repeat;
@@ -18,9 +17,15 @@ header .container .tittle{
     cursor: pointer;
 }
 
+.fondo-blur{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.162);
+}
+
 header .container .tittle h1{
     font-size: 50px;
-    margin: 10px 0;
+    padding: 10px 0 0 0;
 }
 
 header .container .tittle h2{
@@ -84,6 +89,14 @@ header .container ul li a:hover{
         background-image: none;
         color: white;
         height: 200px;
+    }
+
+    .hr-header{
+        display: none;
+    }
+
+    header .container .tittle h2{
+        display: none;
     }
 
     header .container .tittle-button{
